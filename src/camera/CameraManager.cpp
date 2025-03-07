@@ -36,7 +36,6 @@ void initCamera()
     config.pixel_format = PIXFORMAT_JPEG;
     config.frame_size = FRAMESIZE_SVGA;
     config.jpeg_quality = 12;
-    config.fb_count = 1;
     config.fb_count = 2;
     if (HIGH_RESOLUTION)
     {
